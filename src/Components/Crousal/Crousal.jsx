@@ -49,7 +49,7 @@ const Carousel = () => {
             />
           ))}
         </div>
-        <button className="mt-4 p-2 bg-gray-300 text-black rounded w-full">
+        <button className="mt-4 p-2 bg-gray-300 text-black rounded w-full" onClick={()=>setActiveIndex(0)}>
           Static Button
         </button>
         <div className="h-2 w-40 bg-gray-300 mt-5 absolute bottom-0 rounded" />
